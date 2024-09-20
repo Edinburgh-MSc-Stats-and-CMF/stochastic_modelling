@@ -1,0 +1,36 @@
+\documentclass[12pt,a4paper]{book}
+
+% Include preamble for custom packages
+\input{preamble}
+
+% Include custom macros
+\input{macros}
+
+
+\title{
+    \small MATH10007 \\ % This ensures "MATH11177" is on one line
+    \vspace{0.5cm} % Adds some space between the two lines
+    \huge Stochastic Modelling % Makes "Bayesian Theory" larger and below the course code
+}
+\author{Sagar Udasi}
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+
+% Table of contents
+\tableofcontents
+\clearpage
+
+% Include chapters
+\include{chapters/chapter1/chapter1}
+\include{chapters/chapter2/chapter2}
+% Add more chapters as necessary
+
+% Bibliography
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\end{document}
